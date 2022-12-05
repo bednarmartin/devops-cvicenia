@@ -1,0 +1,23 @@
+<form [formGroup]="profileForm">
+  <span *ngIf="transaction">
+    <p><mat-form-field appearance="fill">
+        <mat-label>Meno</mat-label>
+        <input matInput formControlName="name">
+      </mat-form-field></p>
+       
+      <p><mat-form-field appearance="fill">
+        <mat-label>Účet</mat-label>
+        <input matInput formControlName="account">
+      </mat-form-field></p>
+    
+      <p><mat-form-field appearance="fill">
+        <mat-label>Hodnota</mat-label>
+        <input matInput formControlName="value">
+      </mat-form-field></p>
+
+      <p><mat-form-field appearance="fill">
+        <mat-label>Dátum</mat-label>
+        <input matInput formControlName="issueDate">
+      </mat-form-field></p>
+</span> 
+</form>

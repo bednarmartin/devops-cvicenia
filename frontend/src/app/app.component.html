@@ -1,0 +1,16 @@
+<mat-toolbar  color="primary">
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Icon-button with a menu">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <a routerLink="basic-accounts" class="nav-link" routerLinkActive="active">
+        <button mat-menu-item>
+          <mat-icon>dialpad</mat-icon>
+         <span>Transactions</span>
+        </button>
+    </a>
+      </mat-menu>
+    <span>Internet banking</span>
+    <span class="example-spacer"></span>
+</mat-toolbar>
+<router-outlet><router-outlet>
