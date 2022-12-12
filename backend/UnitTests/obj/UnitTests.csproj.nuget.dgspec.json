@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Vývoj veľkých softvérových aplikácii\\cvicenia\\devops-cvicenia\\backend\\backend.csproj": {}
+    "F:\\Vývoj veľkých softvérových aplikácii\\cvicenia\\devops-cvicenia\\backend\\UnitTests\\UnitTests.csproj": {}
   },
   "projects": {
-    "F:\\Vývoj veľkých softvérových aplikácii\\cvicenia\\devops-cvicenia\\backend\\backend.csproj": {
+    "F:\\Vývoj veľkých softvérových aplikácii\\cvicenia\\devops-cvicenia\\backend\\UnitTests\\UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Vývoj veľkých softvérových aplikácii\\cvicenia\\devops-cvicenia\\backend\\backend.csproj",
-        "projectName": "backend",
-        "projectPath": "F:\\Vývoj veľkých softvérových aplikácii\\cvicenia\\devops-cvicenia\\backend\\backend.csproj",
+        "projectUniqueName": "F:\\Vývoj veľkých softvérových aplikácii\\cvicenia\\devops-cvicenia\\backend\\UnitTests\\UnitTests.csproj",
+        "projectName": "UnitTests",
+        "projectPath": "F:\\Vývoj veľkých softvérových aplikácii\\cvicenia\\devops-cvicenia\\backend\\UnitTests\\UnitTests.csproj",
         "packagesPath": "C:\\Users\\marbe\\.nuget\\packages\\",
-        "outputPath": "F:\\Vývoj veľkých softvérových aplikácii\\cvicenia\\devops-cvicenia\\backend\\obj\\",
+        "outputPath": "F:\\Vývoj veľkých softvérových aplikácii\\cvicenia\\devops-cvicenia\\backend\\UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marbe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,29 +38,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[6.0.2, )"
-            },
-            "StyleCop.Analyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.1.118, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[17.3.2, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -91,9 +71,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
